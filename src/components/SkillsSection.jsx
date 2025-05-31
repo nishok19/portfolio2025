@@ -1,18 +1,6 @@
 import { useState } from "react";
 import { cn } from "../lib/utils";
-
-const skills = [
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 95, category: "frontend" },
-  { name: "Node.js", level: 75, category: "backend" },
-  { name: "Express", level: 80, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "Git/HitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-];
-
-const categories = ["all", "frontend", "backend", "tools"];
+import { categories, skills } from "../data";
 
 const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");

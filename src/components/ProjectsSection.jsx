@@ -1,39 +1,6 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
-const projects = [
-  {
-    id: 1,
-    title: "Image E-Commerce Web Application",
-    description: "A ecommerce website for images",
-    image:
-      "https://github.com/nishok19/portfolio/blob/main/public/images/ImgEcom-1.png?raw=true",
-    tags: ["React", "TailwindCSS", "Stripe"],
-    srclink: "https://github.com/nishok19/portfolio",
-    livelink: "https://img.nishok.my",
-  },
-  {
-    id: 2,
-    title: "Task Manager Web Application",
-    description:
-      "This application is a full-stack web application built using React.js, Express, MongoDB, Zustand for state management, and secure user authentication. It reflects my expertise in web development and my commitment to delivering user-centric solutions.",
-    image:
-      "https://github.com/nishok19/portfolio/blob/main/public/images/todo-sample.png?raw=true",
-    tags: ["React", "Express", "Zustand", "MongoDB"],
-    srclink: "https://github.com/nishok19/todo-jscamp",
-    livelink: "https://github.com/nishok19/todo-jscamp",
-  },
-  {
-    id: 3,
-    title: "React-Redux-Authentication",
-    description:
-      "This application is a full-stack web application built using React.js, Express, MongoDB, Zustand for state management, and secure user authentication. It reflects my expertise in web development and my commitment to delivering user-centric solutions.",
-    image:
-      "https://img.freepik.com/free-vector/two-factor-authentication-concept-illustration_114360-5488.jpg?t=st=1715183369~exp=1715186969~hmac=9a0b8f2f5db27e929ab66d77d3bafb3a32865bbd3a405e07bb76c3f49718c8f6&w=826",
-    tags: ["React", "Redux"],
-    srclink: "https://github.com/nishok19/react-redux-auth-protected",
-    livelink: "https://github.com/nishok19/react-redux-auth-protected",
-  },
-];
+import { projects } from "../data";
 
 const ProjectsSection = () => {
   return (
