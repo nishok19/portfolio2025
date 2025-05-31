@@ -26,7 +26,12 @@ const AboutSection = () => {
               <a href="#contact" className="cosmic-button">
                 Get In Touch
               </a>
-              <a href="" className="cosmic-button-outline">
+              <a
+                href="https://drive.google.com/file/d/1dUACSWfPnDXPdBmu7ZrReVc88lJ7WfR0/view?usp=drive_link"
+                download="Nishok-Resume"
+                target="_blank"
+                className="cosmic-button-outline"
+              >
                 Download Resume
               </a>
             </div>
